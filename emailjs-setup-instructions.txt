@@ -1,0 +1,46 @@
+# Setting Up EmailJS for Your Contact Form
+
+Follow these steps to configure EmailJS for your portfolio contact form:
+
+## Step 1: Create an EmailJS Account
+1. Go to https://www.emailjs.com/ and sign up for a free account
+2. Verify your email address
+
+## Step 2: Create an Email Service
+1. In your EmailJS dashboard, go to "Email Services"
+2. Click "Add New Service"
+3. Select your email provider (Gmail, Outlook, etc.)
+4. Follow the authentication steps
+5. Give your service a name (e.g., "portfolio-contact")
+6. Copy the Service ID - you'll need this later// 
+
+## Step 3: Create an Email Template
+1. Go to "Email Templates" in the dashboard
+2. Click "Create New Template"
+3. Design your email template using the variables provided in your code:
+   - {{from_name}}
+   - {{from_email}}
+   - {{message}}
+4. Save your template
+5. Copy the Template ID - you'll need this later//
+
+## Step 4: Get Your Public Key
+1. Go to "Account" > "API Keys"
+2. Copy your Public Key//
+
+## Step 5: Create a .env.local File
+Create a file called .env.local in your project root with these values:
+
+```
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id_here
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id_here
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key_here
+```
+
+## Step 6: Add .env.local to .gitignore
+Make sure .env.local is in your .gitignore file to keep your credentials private.
+
+## Step 7: Restart Your Development Server
+After creating the .env.local file, restart your development server for the changes to take effect.
+
+Your contact form should now send emails directly to your inbox when visitors submit the form! 
