@@ -1,8 +1,6 @@
-# Bibek Bhandari - Interactive 3D Portfolio
+# Aditya Narayan Raul - Interactive 3D Portfolio
 
-This repository contains the code for my personal portfolio website, showcasing my projects, skills, and background as a Computer Science student.
-
-**Live Demo:**[You can check this] (https://bibekbhandari.site) 
+This repository contains the code for my personal portfolio website, showcasing my projects, skills, and background as a Computer Science student. 
 
 ## Description
 
@@ -32,7 +30,7 @@ To run this project locally:
 
 1.  **Clone the repository:**
 ```bash
-    git clone https://github.com/Bibek1008/portfolio-website.git
+    git clone https://github.com/adityaraul004/my-portfolio.git
     cd portfolio-website
     ```
 2.  **Install dependencies:**
@@ -69,7 +67,7 @@ This project is configured for easy deployment on [Vercel](https://vercel.com/).
 
 ## Author
 
-*   **Bibek Bhandari**
-    *   GitHub: [@Bibek1008](https://github.com/Bibek1008)
-    *   LinkedIn: https://www.linkedin.com/in/bibek-bhandari-053283226/
+*   **Aditya Narayan Raul**
+    *   GitHub: [@adityaraul004](https://github.com/adityaraul004)
+    *   LinkedIn: https://www.linkedin.com/in/aditya-narayan-raul-053283226/
 
