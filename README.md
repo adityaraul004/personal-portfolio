@@ -31,7 +31,7 @@ To run this project locally:
 1.  **Clone the repository:**
 ```bash
     git clone https://github.com/adityaraul004/my-portfolio.git
-    cd portfolio-website
+    cd my-portfolio
     ```
 2.  **Install dependencies:**
 ```bash
